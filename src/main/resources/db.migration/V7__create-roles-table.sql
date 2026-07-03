@@ -1,0 +1,4 @@
+CREATE TABLE roles(
+    id BIGSERIAL PRIMARY KEY,
+    authority VARCHAR(100) NOT NULL UNIQUE
+);

@@ -1,0 +1,20 @@
+########################################
+# DATABASE
+########################################
+
+spring.datasource.url=${DB_URL}
+spring.datasource.username=${DB_USERNAME}
+spring.datasource.password=${DB_PASSWORD}
+
+########################################
+# JPA
+########################################
+
+spring.jpa.hibernate.ddl-auto=update
+
+########################################
+# JWT
+########################################
+
+jwt.key=${JWT_KEY}
+jwt.expiration=${JWT_EXPIRATION}
